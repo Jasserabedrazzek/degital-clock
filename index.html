@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jasser Ben abed Razzek">
+    <meta name="description" content="Digital Clock">
+    <title>Digital Clock - DevTunisian</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link id="themeStylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <video id="video" autoplay loop muted>
+            <source src="/videos/RAIN video for free footage for short film  4k __ Night Rain - Royalty Free Footage RFF (720p, h264, youtube).mp4" type="video/mp4">
+        </video>
+        <div id="main">
+            <div class="nav">
+                <button id="Muted" onclick="Muted()">
+                    <i class="fa fa-volume-mute"></i>
+                </button>
+            </div>
+            <div class="clock">
+                <div class="c">
+                    <div class="days">
+                        <span class="day day1">Lun</span>
+                        <span class="day day2">Mar</span>
+                        <span class="day day3">Mer</span>
+                        <span class="day day4">Jeu</span>
+                        <span class="day day5">Ven</span>
+                        <span class="day day6">sam</span>
+                        <span class="day day7">Dim</span>
+                    </div>
+                    <div class="num">
+                        <div class="hours"></div>
+                        <div class="dots">
+                            :
+                        </div>
+                        <div class="minutes"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
