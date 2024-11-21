@@ -14,7 +14,7 @@ function addZero(z) {
     return z < 10 ? `0${z}` : z;
 }
 
-setInterval(Times, 1000);
+setInterval(Times, 500);
 
 
 let isMuted = true;
